@@ -1,9 +1,12 @@
+import React from "react";
 
-function TodoItem () {
+
+function TodoItem (props) {
+
     return(
         <div className="toDoItem">
-        <h1>Intro to React</h1>
-        <p>Lorem ipsum</p>
+        <h1>{props.toDo.title}</h1>
+        <p>{props.toDo.description}</p>
         </div>
     );
     
