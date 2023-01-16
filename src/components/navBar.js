@@ -2,7 +2,7 @@
 
 function NavBar() {
     return (
-        <div>
+        <div className="navBar">
             <p>This is a Nav Bar</p>
         </div>
     );

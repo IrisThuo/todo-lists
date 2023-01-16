@@ -1,0 +1,25 @@
+.navBar{
+background-color: #E0B1CB;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+height: 80px;
+
+}
+
+.footer{
+background-color: #E0B1CB;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+height: 80px;
+}
+
+
+.toDoItem{
+    border-color:#231942 ;
+    border-width: 10pc;
+    
+}
